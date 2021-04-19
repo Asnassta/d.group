@@ -1,0 +1,42 @@
+.container {
+	@media (min-width: 1320px) {
+	max-width: 1260px;
+	}
+	&-footer {
+		max-width: 1730px;
+		@media(max-width: 1760px) {
+			padding: 0 15px;
+		}
+	}
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-size: inherit;
+	font-weight: 400;
+}
+
+p {
+	padding: 0;
+	margin: 0 0 1rem 0;
+}
+
+.block {
+	padding-top: 112px;
+}
+
+.pl-0 {
+	padding-left: 0px;
+}
+
+.mb-1 {
+	margin-bottom: 1rem!important;
+}

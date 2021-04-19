@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/animation.css">
+	<title>Видео и анимация</title>
+</head>
+<body>
+	<!--Sprite-->
+	<svg style="display: none;">
+		<symbol id="arrow-dropdown" viewBox="0 0 9 6">
+			<g><g><path d="M4.826.216L.914 5.172h7.823z"/></g></g>
+		</symbol>
+	</svg>
+	<div class="wrapper" id="fullpage">
+
+			<!--Intro-->
+		<header class="header" id="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-3 col-xxl-3 col-xl-2 col-lg-2">
+						<a href="#" class="header__logo">
+							<img class="logo-nofixed" src="assets/images/logo.svg" alt="Логотип">
+							<img class="logo-fixed" src="assets/images/logo-white.svg" alt="Логотип">
+						</a>
+					</div>
+					<div class="col-9 col-xxl-9 col-xl-10 col-lg-10">
+						<div class="header__menu menu">
+							<ul class="menu__nav nav">
+								<li class="nav__dropdown">
+									<span class="nav__link header__link">Сервисы</span>
+									<span>
+										<svg class="nav__dropdown__arrow">
+											<use xlink:href="#arrow-dropdown"></use>
+										</svg>
+									</span>
+									<ul class="nav__dropdown__menu">
+										<li><a href="#">Разработка сайтов</a></li>
+										<li><a href="#">Поддержка сайтов</a></li>
+										<li><a href="#">Дизайн</a></li>
+										<li><a href="#">Видео и анимация</a></li>
+									</ul>
+								</li>
+								<li><a href="#" class="nav__link header__link">О Нас</a></li>
+								<li><a href="#" class="nav__link header__link">Блог</a></li>
+								<li><a href="#" class="nav__link header__link">Контакты</a></li>
+							</ul>
+							<div class="header__phones phones">
+								<a href="tel:+74950068351" class="header__link">+7 (495) 006-8351</a>
+								<a href="tel:+78126488351" class="header__link">+7 (812) 648-8351</a>
+							</div>
+							<div class="header__btn">
+								<a href="#" class="btn">Заполнить бриф</a>
+							</div>
+							<div class="burger" id="burger">
+								<span class="burger__item"></span>
+							</div>
+
+							<div class="header__menu_mobile">
+								<ul class="pl-0">
+									<li>
+										<span class="nav__link header__link">Сервисы:</span>
+										<span>
+										<ul class="menu__dots">
+											<li><a class="nav__link header__link" href="#">Разработка сайтов</a></li>
+											<li><a class="nav__link header__link" href="#">Поддержка сайтов</a></li>
+											<li><a class="nav__link header__link" href="#">Дизайн</a></li>
+											<li><a class="nav__link header__link" href="#">Видео и анимация</a></li>
+										</ul>
+									</li>
+									<li><a href="#" class="nav__link header__link">О Нас</a></li>
+									<li><a href="#" class="nav__link header__link">Блог</a></li>
+									<li><a href="#" class="nav__link header__link">Контакты</a></li>
+								</ul>
+								<div class="header__btn_mobile">
+									<a href="#" class="btn">Заполнить бриф</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="block-intro section" id="intro">
+			<img class="block-intro__camera" src="assets/images/camera.png" alt="камера">
+			<img class="block-intro__oscar" src="assets/images/oscar.png" alt="оскар">
+		</div>
+			<!--/intro-->
+			<!--Create-->
+					<section class="block-create block section">
+						<div class="container">
+							<div class="block__header">
+								<h2 class="block-create__title title">Мы создаём для вас</h2>
+							</div>
+							<ul class="block-create__menu">
+								<li><a href="#" class="block-create__link">Рекламная анимация</a></li>
+								<li><a href="#" class="block-create__link">Видео-контент</a></li>
+								<li><a href="#" class="block-create__link">Бренд анимация</a></li>
+								<li><a href="#" class="block-create__link">Анимация презентаций</a></li>
+							</ul>
+						</div>
+					</section>
+			<!--/create-->
+			<!--Clip-->
+					<section class="block-clip block section" id="clip">
+						<div class="container">
+							<div class="block__header">
+								<h2 class="block-clip__title title">Самые вкусные ролики</h2>
+							</div>
+							<div class="block-clip__content">
+								<div class="row">
+									<div class="col-md-6 col-sm-12">
+										<a href="#" class="block-clip__item">
+											<img src="assets/images/tasty-clip.jpg" alt="">
+										</a>
+									</div>
+									<div class="col-md-6 col-sm-12">
+										<a href="#" class="block-clip__item">
+											<img src="assets/images/tasty-clip.jpg" alt="">
+										</a>
+									</div>
+									<div class="col-md-6 col-sm-12">
+										<a href="#" class="block-clip__item">
+											<img src="assets/images/tasty-clip.jpg" alt="">
+										</a>
+									</div>
+									<div class="col-md-6 col-sm-12">
+										<a href="#" class="block-clip__item">
+											<img src="assets/images/tasty-clip.jpg" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+			<!--/clip-->
+			<!--Step-->
+					<section class="block-step block section">
+						<div class="container">
+							<div class="block__header">
+								<h2 class="block-step__title title-big">Этапы создания <span>роликов</span></h2>
+							</div>
+							<div class="block-step__content">
+								<div class="row">
+									<div class="col-lg-4 col-sm-6 col-xs-12">
+										<div class="block-step__item">
+											<div class="block-step__img">
+												<img src="assets/images/clip-step1.svg" alt="шаг 1">
+											</div>
+											<div class="block-step__text">
+												Брифинг. Выявление<br> целей, определение<br> стилистики ролика
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-sm-6 col-xs-12">
+										<div class="block-step__item">
+											<div class="block-step__img">
+												<img src="assets/images/clip-step2.svg" alt="шаг 1">
+											</div>
+											<div class="block-step__text">
+												Написание<br> и согласование <br> сценария ролика
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-sm-6 col-xs-12">
+										<div class="block-step__item">
+											<div class="block-step__img">
+												<img src="assets/images/clip-step3.svg" alt="шаг 1">
+											</div>
+											<div class="block-step__text">
+												Создание статической <br>раскадровки
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-sm-6 col-xs-12">
+										<div class="block-step__item">
+											<div class="block-step__img">
+												<img src="assets/images/clip-step4.svg" alt="шаг 1">
+											</div>
+											<div class="block-step__text">
+												Сборка материала. <br>Съемка видео, если <br> оно необходимо
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-sm-6 col-xs-12">
+										<div class="block-step__item">
+											<div class="block-step__img block-step__img-pl">
+												<img src="assets/images/clip-step5.svg" alt="шаг 1">
+											</div>
+											<div class="block-step__text">
+												Монтаж и анимация
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-sm-6 col-xs-12">
+										<div class="block-step__item">
+											<div class="block-step__img">
+												<img src="assets/images/clip-step6.svg" alt="шаг 1">
+											</div>
+											<div class="block-step__text">
+												Озвучка ролика. <br>Музыкальная, звуковая, <br> голосовая
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+			<!--/step-->
+			<!--Popcorn-->
+					<section class="block block-popcorn section">
+						<div class="container">
+							<div class="block-popcorn__content">
+								<div class="row">
+									<div class="col-lg-6 col-12">
+										<div class="block-popcorn__item">
+											<div class="block-popcorn__img">
+												<img src="assets/images/popcorn.png" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-12">
+										<div class="block-popcorn__item">
+											<div class="block-popcorn__text block__text">
+												<p>Нам можно доверить все этапы создание ролика или заказать отдельные этапы производства видео.<br>Например, у вас уже готов сценарий и даже раскадровка к будущему ролику, осталось только визуализировать и анимировать элементы.<br>Мы обсудим с вами стилистику клипа , особенности анимации и запустим в производство.</p>
+												<p>Или у вас нет ничего, кроме желания показать продукт через видео клип. Тогда вы можете заказать у нас производства с самого первого этапа - гениальной идеи.</p>
+												<p>Даже если у вас специфическая тематика бизнеса или нет материала, который можно использовать в ролике (видео/фото/логотипа). Мы и это создадим и предложим варианты создания клипа с разными временными и финансовыми затратами.</p>
+											</div>
+											<a href="#" class="block-popcorn__btn btn">Оставить заявку</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+			<!--/popcorn-->
+		<!--Footer-->
+		<footer class="footer section">
+					<div class="footer__inner">
+						<div class="map-block">
+							<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7e0213c07e7f49e4aed4ea2635091c2e552f78369f2253c221537f27af4eb2f7&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+						</div>
+						<div class="footer__content pt-4">
+							<div class="container container-footer">
+						<div class="row">
+							<div class="col-lg-3 col-md-2 col-12">
+								<a href="#" class="footer__logo">
+									<img src="assets/images/logo-white.svg" alt="лого">
+								</a>
+							</div>
+							<div class="col-1 footer__freeplace"></div>
+							<div class="col-md-3 col-5">
+								<div class="footer__menu">
+									<div class="footer__menu__column">
+									<a class="footer__text footer__link mb-1">Брендинг</a>
+									<a class="footer__text footer__link mb-1">Видео и анимация</a>
+									<a class="footer__text footer__link mb-1">Разработка сайтов</a>
+									<a class="footer__text footer__link mb-1">Тех. поддержка сайтов</a>
+								</div>
+								<div class="footer__menu__column">
+									<a class="footer__text footer__link mb-1">О Нас</a>
+									<a class="footer__text footer__link mb-1">Контакты</a>
+									<a class="footer__text footer__link mb-1">Блог</a>
+								</div>
+								</div>
+							</div>
+							<div class="col-xxl-2 col-1 footer__freeplace"></div>
+							<div class="col-xxl-2 col-lg-3 col-md-4 col-7">
+								<div class="footer__about">
+									<div class="footer__icon">
+										<img src="assets/images/pin.svg" alt="иконка локации">
+									</div>
+									<div class="footer__text">Санкт-Петербург<br>ул. Варшавская 15</div>
+								</div>
+								<div class="footer__about">
+									<div class="footer__icon footer__icon-phone">
+										<img src="assets/images/phone.svg" alt="иконка телефона">
+									</div>
+									<div class="footer__info">
+										<a href="tel:+74950068351" class="footer__text footer__link">+7 (495) 006-8351</a>
+										<a href="tel:+78126488351" class="footer__text footer__link">+7 (812) 648-8351</a>
+									</div>
+								</div>
+								<div class="footer__about">
+									<div class="footer__icon">
+										<img src="assets/images/mail.svg" alt="иконка почты">
+									</div>
+									<div class="footer__info">
+										<a href="mailto:dev@d-groups.ru" class="footer__text footer__link">dev@d-groups.ru</a>
+										<a href="mailto:dev@d-groups.ru" class="footer__text footer__link">design@d-groups.ru</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-1 col-12">
+								<div class="footer__social">
+									<a href="#" class="footer__icon-social" target="blank">
+										<img src="assets/images/facebook.svg" alt="facebook">
+									</a>
+									<a href="#" class="footer__icon-social" target="blank">
+										<img src="assets/images/instagram.svg" alt="instagram">
+									</a>
+									<a href="#" class="footer__icon-social" target="blank">
+										<img src="assets/images/twitter.svg" alt="twitter">
+									</a>
+									<a href="#" class="footer__icon-social" target="blank">
+										<img src="assets/images/behance.svg" alt="behance">
+									</a>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="footer__copyright footer__text">Copyright 2017-2021 ©</div>
+							</div>
+						</div>
+					</div>
+						</div>
+					</div>
+		</footer>
+		<!--/footer-->
+	</div>
+
+
+
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<script src="https://alvarotrigo.com/fullPage/fullpage.min.js"></script>
+	<script src="assets/js/script.js"></script>
+</body>
+</html>
