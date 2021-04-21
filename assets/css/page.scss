@@ -90,10 +90,6 @@ img{vertical-align: top;}
 				margin-right: 0;
 			}
 		}
-		&.active {
-			transform: translate3d(-500%,0,0);
-			transition: transform .5s cubic-bezier(0.22, 0.61, 0.36, 1);
-		}
 	}
 	&__btn {
 		margin-left: 40px;
@@ -103,7 +99,7 @@ img{vertical-align: top;}
 		z-index: 1000;
 		height: 56px;
 		padding: 7px 0;
-		background-color: $b2;
+		background-color: $bl;
 		.logo-fixed {
 			display: block;
 		}
@@ -125,7 +121,7 @@ img{vertical-align: top;}
 			fill: $wh;
 		}
 		.nav__dropdown__menu {
-			background-color: $b2;
+			background-color: $bl;
 			a {
 				color: $wh;
 				&:hover {
@@ -133,7 +129,7 @@ img{vertical-align: top;}
 				}
 			}
 			&:before {
-				border-color: transparent transparent $b2;
+				border-color: transparent transparent $bl;
 			}
 		}
 	}
@@ -364,7 +360,7 @@ img{vertical-align: top;}
 
 /*Footer*/
 .footer {
-	background-color: $b2;
+	background-color: $bl;
 	&__inner {
 		padding-bottom: 20px;
 	}

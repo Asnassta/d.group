@@ -127,14 +127,6 @@ img {
       margin-right: 15px; }
       .header__phones a:last-child {
         margin-right: 0; }
-    .header__phones.active {
-      -webkit-transform: translate3d(-500%, 0, 0);
-      transform: translate3d(-500%, 0, 0);
-      -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
-      transition: -webkit-transform 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
-      -o-transition: transform 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
-      transition: transform 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
-      transition: transform 0.5s cubic-bezier(0.22, 0.61, 0.36, 1), -webkit-transform 0.5s cubic-bezier(0.22, 0.61, 0.36, 1); }
   .header__btn {
     margin-left: 40px; }
   .header.fixed {
@@ -142,7 +134,7 @@ img {
     z-index: 1000;
     height: 56px;
     padding: 7px 0;
-    background-color: #0c0c0c; }
+    background-color: #000; }
     .header.fixed .logo-fixed {
       display: block; }
     .header.fixed .logo-nofixed {
@@ -156,13 +148,13 @@ img {
     .header.fixed .nav__dropdown__arrow {
       fill: #fff; }
     .header.fixed .nav__dropdown__menu {
-      background-color: #0c0c0c; }
+      background-color: #000; }
       .header.fixed .nav__dropdown__menu a {
         color: #fff; }
         .header.fixed .nav__dropdown__menu a:hover {
           color: #fecd30; }
       .header.fixed .nav__dropdown__menu:before {
-        border-color: transparent transparent #0c0c0c; }
+        border-color: transparent transparent #000; }
 
 .nav {
   margin-right: 60px;
@@ -384,7 +376,7 @@ img {
 
 /*Footer*/
 .footer {
-  background-color: #0c0c0c; }
+  background-color: #000; }
   .footer__inner {
     padding-bottom: 20px; }
   .footer__content {
@@ -711,7 +703,7 @@ p {
     max-width: 100%; }
 
 .block-step {
-  background: url("../images/step.svg") right bottom/auto 100% no-repeat, #0c0c0c; }
+  background: url("../images/step.svg") right bottom/auto 100% no-repeat, #000; }
   .block-step__content {
     margin-top: 60px; }
   .block-step__item {
@@ -822,7 +814,7 @@ p {
     .block-clip__content:before {
       right: -45px; }
   .block-step {
-    background: #0c0c0c; }
+    background: #000; }
     .block-step__content {
       padding: 0; }
     .block-step__item {
