@@ -415,10 +415,8 @@ img {
       margin-bottom: 0; }
   .footer__icon {
     margin-right: 25px; }
-    .footer__icon-phone {
-      margin-right: 5px; }
-      .footer__icon-phone img {
-        max-height: 75px; }
+    .footer__icon-phone img {
+      max-height: 75px; }
     .footer__icon-social {
       margin: 0 0 36px 0;
       display: block; }
