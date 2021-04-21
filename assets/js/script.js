@@ -8,13 +8,13 @@ function step()
 
 
 $(document).ready(function() {
-	/*Contacts*/
+	/*Dropdown Menu*/
 		let $dropdown = $('.nav__dropdown')
 			$dropdownMenu = $('.nav__dropdown__menu')
 			$arrowDropdown = $('.nav__dropdown__arrow')
 
 		$dropdown.on('click', function() {
-			$dropdownMenu.slideToggle(400)
+			$dropdownMenu.toggleClass('show')
 			$dropdown.toggleClass('active')
 			$arrowDropdown.toggleClass('active')
 		});
@@ -24,7 +24,8 @@ $(document).ready(function() {
 
 		$(this).toggleClass("active");
 		$(".header__menu_mobile").toggleClass("show");
-	})
+		$('body').toggleClass("hidden");
+	});
 
 	/*Fixed Header*/
 	let $header = $("#header")
