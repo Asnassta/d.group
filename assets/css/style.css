@@ -715,8 +715,7 @@ p {
   .block-step__content {
     margin-top: 60px; }
   .block-step__item {
-    margin-bottom: 100px;
-    padding-right: 50px;
+    margin-bottom: 60px;
     display: none; }
     .block-step__item img {
       max-width: 100%; }
@@ -784,7 +783,7 @@ p {
       right: -50px; }
     .block-step__content {
       padding-left: 0;
-      padding-right: 20%; } }
+      padding-right: 25%; } }
 
 @media (max-width: 992px) {
   .block-step {
