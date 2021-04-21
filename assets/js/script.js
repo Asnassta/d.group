@@ -26,7 +26,6 @@ $(document).ready(function() {
 		$(".header__menu_mobile").toggleClass("show");
 		$('body').toggleClass("hidden");
 		$('.fullpage').toggleClass("active");
-		$('.header__phones').toggleClass("active");
 	});
 
 	/*Fixed Header*/
