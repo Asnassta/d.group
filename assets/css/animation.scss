@@ -59,12 +59,16 @@
 			}
 			&:hover {
 				color: $b2;
+			}
+			@media(min-width: 1024px) {
+				&:hover {
 				padding-left: 50px;
 				margin-left: 30px;
 				&:before {
 						left: 3%;
 						display: block;
 					}
+				}
 			}
 		}
 	}
@@ -102,7 +106,6 @@
 		background: url("../images/step.svg") right bottom / auto 100% no-repeat, $b2;
 		&__content {
 			margin-top: 60px;
-			padding-right: 20%;
 		}
 		&__item {
 			margin-bottom: 100px;

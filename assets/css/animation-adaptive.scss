@@ -35,6 +35,16 @@
 	}
 }
 
+@media (max-width: 1200px) {
+	.block {
+		&-step {
+			&__freeplace {
+				display: none;
+			}
+		}
+	}
+}
+
 @media (max-width: 1024px) {
 	.block {
 		padding: 56px 0;
@@ -66,6 +76,7 @@
 		&-step {
 			&__content {
 				padding-left: 0;
+				padding-right: 20%;
 			}
 		}
 	}
@@ -90,6 +101,12 @@
 			}
 			&__link {
 				font-size: 40px;
+			}
+		}
+		&-step {
+			background-size: auto 80%;
+			&__item {
+				margin-bottom: 50px;
 			}
 		}
 		&-popcorn {
@@ -117,6 +134,14 @@
 		&-create {
 			&__link {
 				font-size: 30px;
+			}
+		}
+		&-clip {
+			&__content {
+				padding: 0 10px;
+				&:before {
+					right: -45px;
+				}
 			}
 		}
 		&-step {
@@ -212,14 +237,8 @@
 			}
 		}
 		&-step {
-			&__content {
-				max-width: 80%;
-			}
 			&__item {
 				margin-bottom: 50px;
-				img {
-					max-width: 80%;
-				}
 			}
 		}
 	}
@@ -230,6 +249,49 @@
 		&-clip {
 			&__content {
 				max-width: 80%;
+			}
+		}
+	}
+}
+
+@media (min-width: 1400px) and (max-height: 700px) {
+	.block {
+		&-intro {
+			&__camera {
+				margin-top: 200px;
+			}
+			&__oscar {
+				width: 200px;
+				top: 280px;
+			}
+		}
+		&-create {
+			&__menu {
+				margin-top: 60px;
+				li {
+					margin-bottom: 50px;
+				}
+			}
+			&__link {
+				font-size: 60px;
+			}
+		}
+		&-clip {
+			&__content {
+				max-width: 68%;
+			}
+		}
+		&-step {
+			&__content {
+				max-width: 80%;
+				margin-left: 115px;
+			}
+			&__item {
+				margin-bottom: 40px;
+				padding-right: 0;
+				img {
+					max-width: 80%;
+				}
 			}
 		}
 	}
