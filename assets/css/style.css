@@ -786,6 +786,10 @@ p {
       padding-left: 0;
       padding-right: 20%; } }
 
+@media (max-width: 992px) {
+  .block-step {
+    background-size: auto 80%; } }
+
 @media (max-width: 768px) {
   .block-intro__camera {
     margin: 135px 0 40px -15%; }
@@ -799,10 +803,8 @@ p {
       margin-top: 50px; }
     .block-create__link {
       font-size: 40px; }
-  .block-step {
-    background-size: auto 80%; }
-    .block-step__item {
-      margin-bottom: 50px; }
+  .block-step__item {
+    margin-bottom: 50px; }
   .block-popcorn__img {
     margin-left: 0; }
   .block-popcorn__text {
