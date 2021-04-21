@@ -325,6 +325,8 @@ img{vertical-align: top;}
 	border-radius: 20px;
 	width: 137px;
 	display: block;
+	border: none;
+	padding: 10px;
 }
 
 /*Title*/
@@ -381,6 +383,11 @@ img{vertical-align: top;}
 		color: $wh;
 		display: block;
 	}
+	&__menu {
+		a {
+			line-height: 2.5;
+		}
+	}
 	&__link {
 		cursor: pointer;
 		transition: color .3s ease;
@@ -400,6 +407,9 @@ img{vertical-align: top;}
 		margin-right: 25px;
 		&-phone {
 			margin-right: 5px;
+			img {
+				max-height: 75px;
+			}
 		}
 		&-social {
 			margin: 0 0 36px 0;

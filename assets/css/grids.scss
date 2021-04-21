@@ -27,8 +27,20 @@ p {
 	padding-top: 112px;
 }
 
+.p-md-0 {
+	@media (min-width: 768px) {
+		padding: 0;
+	}
+}
+
 .pl-0 {
 	padding-left: 0px;
+}
+
+.pl-lg-0 {
+	@media (min-width: 992px) {
+		padding-left: 0;
+	}
 }
 
 .mb-1 {
