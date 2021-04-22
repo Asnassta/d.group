@@ -284,7 +284,8 @@ img {
   cursor: pointer;
   position: relative;
   z-index: 100;
-  margin-left: 30px; }
+  margin-left: 30px;
+  margin-top: 5px; }
   .burger__item {
     display: block;
     width: 100%;
@@ -453,7 +454,7 @@ img {
     max-width: 1200px; }
   .header__phones {
     position: absolute;
-    top: 20px;
+    top: 23px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -489,7 +490,7 @@ img {
   .header.fixed .header__menu_mobile .header__link {
     color: #0c0c0c; }
   .header.fixed .header__phones {
-    top: 5px; }
+    top: 8px; }
   .nav {
     display: none; }
   .burger {
