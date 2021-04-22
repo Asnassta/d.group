@@ -264,5 +264,19 @@
 	}
 }
 
+@media (max-width: 375px) and (min-height: 812px) {
+	.header {
+		&.fixed {
+			height: 50px;
+		}
+	}
+}
 
+@media (max-width: 375px) and (min-height: 558px) {
+	.header {
+		&.fixed {
+			height: 50px;
+		}
+	}
+}
 
