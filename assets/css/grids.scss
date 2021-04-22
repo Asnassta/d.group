@@ -33,6 +33,18 @@ p {
 	}
 }
 
+.pl-md-0 {
+	@media (min-width: 768px) {
+		padding-left: 0;
+	}
+}
+
+.pr-lg-0 {
+	@media (min-width: 992px) {
+		padding-right: 0;
+	}
+}
+
 .pl-0 {
 	padding-left: 0px;
 }

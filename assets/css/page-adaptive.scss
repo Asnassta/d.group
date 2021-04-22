@@ -138,6 +138,9 @@
 				width: 30%;
 			}
 		}
+		&__about {
+			padding-left: 0;
+		}
 		&__freeplace {
 			display: none;
 		}
@@ -221,11 +224,16 @@
 	}
 }
 
-@media (min-width: 1000px) and (max-height: 850px) {
+@media (max-width: 1400px) and (min-height: 1000px) {
 	.footer {
 		&__content {
-			padding-top: 25px;
+			padding-top: 80px;
 		}
+	}
+}
+
+@media (min-width: 1000px) and (max-height: 850px) {
+	.footer {
 		&__icon {
 			width: 20%;
 			margin-right: 15px;
