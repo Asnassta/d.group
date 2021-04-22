@@ -129,6 +129,9 @@
 				padding-top: 100px;
 			}
 		}
+		&.fixed {
+			height: 56px;
+		}
 	}
 	.footer {
 		&__logo {

@@ -102,7 +102,8 @@
 			}
 		}
 		&-create {
-			background: $c;
+			background-size: auto 80%;
+			background-position: top 30% right -40px;
 			&__menu {
 				padding-left: 5%;
 				margin-top: 50px;

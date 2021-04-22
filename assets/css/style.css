@@ -140,7 +140,7 @@ img {
     .header.fixed .logo-nofixed {
       display: none; }
     .header.fixed .header__logo img {
-      max-height: 42px; }
+      max-height: 46px; }
     .header.fixed .header__link {
       color: #fff; }
       .header.fixed .header__link:hover {
@@ -520,6 +520,8 @@ img {
 @media (max-width: 546px) {
   .header__menu_mobile {
     padding-top: 100px; }
+  .header.fixed {
+    height: 56px; }
   .footer__logo {
     text-align: center;
     margin-bottom: 50px; }
@@ -812,7 +814,8 @@ p {
     width: 120px;
     top: 170px; }
   .block-create {
-    background: #fecd30; }
+    background-size: auto 80%;
+    background-position: top 30% right -40px; }
     .block-create__menu {
       padding-left: 5%;
       margin-top: 50px; }
