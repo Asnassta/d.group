@@ -237,7 +237,7 @@
 }
 
 
-@media (min-width: 1000px) and (max-height: 900px) {
+@media (min-width: 1025px) and (max-height: 900px) {
 	.block {
 		&-clip {
 			&__content {
@@ -252,7 +252,7 @@
 	}
 }
 
-@media (min-width: 1000px) and (max-height: 800px) {
+@media (min-width: 1025px) and (max-height: 800px) {
 	.block {
 		&-clip {
 			&__content {
@@ -310,3 +310,12 @@
 	}
 }
 
+@media (min-width: 1024px) and (max-height: 768px) {
+	.block {
+		&-intro {
+			&__camera {
+				max-height: 40vh;
+			}
+		}
+	}
+}

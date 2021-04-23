@@ -902,13 +902,13 @@ p {
   .block-step__text {
     font-size: 16px; } }
 
-@media (min-width: 1000px) and (max-height: 900px) {
+@media (min-width: 1025px) and (max-height: 900px) {
   .block-clip__content {
     max-width: 90%; }
   .block-step__item {
     margin-bottom: 50px; } }
 
-@media (min-width: 1000px) and (max-height: 800px) {
+@media (min-width: 1025px) and (max-height: 800px) {
   .block-clip__content {
     max-width: 80%; }
   .block-step__content {
@@ -936,3 +936,7 @@ p {
     padding-right: 0; }
     .block-step__item img {
       max-width: 80%; } }
+
+@media (min-width: 1024px) and (max-height: 768px) {
+  .block-intro__camera {
+    max-height: 40vh; } }
