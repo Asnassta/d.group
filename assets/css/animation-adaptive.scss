@@ -259,10 +259,15 @@
 				max-width: 80%;
 			}
 		}
+		&-step {
+			&__content {
+				max-width: 80%;
+			}
+		}
 	}
 }
 
-@media (min-width: 1400px) and (max-height: 700px) {
+@media (min-width: 1400px) and (max-height: 800px) {
 	.block {
 		&-intro {
 			&__camera {
