@@ -1,3 +1,15 @@
+@media (max-width: 1440px) {
+	.title {
+		&-yellow {
+			&_semibold {
+				font-size: 25px;
+			}
+		}
+	}
+	.scroll {
+		display: none;
+	}
+}
 @media (max-width: 1320px) {
 	.title {
 		&-big {
@@ -17,6 +29,13 @@
 }
 
 @media (max-width: 1024px) {
+	.title {
+		&-yellow {
+			&_semibold {
+				font-size: 18px;
+			}
+		}
+	}
 	.map-block {
 		height: 35vh;
 	}
@@ -214,6 +233,9 @@
 				font-size: 10px;
 			}
 		}
+	}
+	.title {
+		font-size: 16px;
 	}
 	.footer {
 		&__text {

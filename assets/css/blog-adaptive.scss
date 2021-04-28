@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+	.news {
+		&__col {
+			width: 50%;
+			margin-bottom: 16px;
+		}
+	}
+}
+
+@media (max-width: 414px) {
+	.news {
+		&__col {
+			width: 100%;
+		}
+	}
+}

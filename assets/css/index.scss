@@ -1,0 +1,39 @@
+.block {
+	&-wedo {
+		background: url("../images/we_create.svg") bottom right no-repeat, $bl;
+		&__content {
+			margin-top: 112px;
+			text-align: center;
+			img {
+				height: 153px;
+			}
+		}
+		&__title {
+			margin-top: 64px;
+			display: block;
+		}
+		&__menu {
+			padding-left: 0;
+			margin-top: 56px;
+			li {
+				font-size: 16px;
+				line-height: 2.5;
+			}
+		}
+		&__link {
+			font-family: $ff;
+			font-weight: 400;
+			color: $wh;
+			line-height: 1.3;
+			transition: all .2s ease;
+			display: inline-block;
+			padding: 5px;
+			&:hover {
+				color: $bl;
+				background-color: $wh;
+			}
+		}
+	}
+}
+
+@import 'index-adaptive.scss';

@@ -3,10 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	 <link rel="preload" href="assets/fonts/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin>
-	 <link rel="preload" href="assets/fonts/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+	<meta name="description" content="Мы в компании D-groups занимаемся основными направлениями развития бизнеса клиентов, такими как созданием и поддержкой веб сайтов и реализацию дизайна и брендинга для бизнеса.">
+	<link rel="preload" href="assets/fonts/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="https://d-groups.ru/local/templates/dgroupsNew/assets/fonts/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-600.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="assets/fonts/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="stylesheet" href="assets/css/style.css">
-	<title>Видео и анимация</title>
+	<title>D-groups - разработка и продвижение сайтов, тех поддержка и обслуживание. Дизайн и брендинг бизнеса</title>
 </head>
 <body>
 	<!--Sprite-->
@@ -14,335 +16,597 @@
 		<symbol id="arrow-dropdown" viewBox="0 0 9 6">
 			<g><g><path d="M4.826.216L.914 5.172h7.823z"/></g></g>
 		</symbol>
+		<symbol id="arrow-slider" viewBox="0 0 56.7 24.8">
+			<g>
+			<polyline class="st0" points="15.7,23.3 1.5,12.8 15.7,1.5 	"/>
+			<line class="st0" x1="1.5" y1="12.8" x2="55.2" y2="12.8"/>
+			<style>
+				.st0{fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+			</style>
+			</g>
+		</symbol>
 	</svg>
-	<div class="wrapper">
 
-	<header class="header" id="header">
-			<div class="container">
-				<div class="row">
-					<div class="col-3 col-xxl-3 col-xl-2 col-lg-2 pl-xl-0">
-						<a href="#" class="header__logo">
-							<img class="logo-nofixed" src="assets/images/logo.svg" alt="Логотип">
-							<img class="logo-fixed" src="assets/images/logo-white.svg" alt="Логотип">
-						</a>
-					</div>
-					<div class="col-9 col-xxl-9 col-xl-10 col-lg-10 pr-xl-0">
-						<div class="header__menu menu">
-							<ul class="menu__nav nav">
-								<li class="nav__dropdown nav__list">
-									<span class="nav__link header__link">Сервисы</span>
-									<span>
-										<svg class="nav__dropdown__arrow">
-											<use xlink:href="#arrow-dropdown"></use>
-										</svg>
-									</span>
-									<ul class="nav__dropdown__menu">
-										<li><a href="#">Разработка сайтов</a></li>
-										<li><a href="#">Поддержка сайтов</a></li>
-										<li>
-											<a href="#">Дизайн</a>
-											<ul class="menu__marker">
-												<li><a href="#">Брендинг</a></li>
-												<li><a href="#">Поддержка</a></li>
-												<li><a href="#">Логотипа</a></li>
-												<li><a href="#">Полиграфии</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Видео и анимация</a></li>
-									</ul>
-								</li>
-								<li class="nav__list"><a href="#" class="nav__link header__link">О Нас</a></li>
-								<li class="nav__list"><a href="#" class="nav__link header__link">Блог</a></li>
-								<li class="nav__list"><a href="#" class="nav__link header__link">Контакты</a></li>
-							</ul>
-							<div class="header__phones phones">
-								<a href="tel:+74950068351" class="header__link">+7 (495) 006-8351</a>
-								<a href="tel:+78126488351" class="header__link">+7 (812) 648-8351</a>
-							</div>
-							<div class="header__btn">
-								<a href="#" class="btn">Заполнить бриф</a>
-							</div>
-								<div class="burger" id="burger">
-								<span class="burger__item"></span>
-							</div>
+	<div class="wrapper">
+		<header class="header" id="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-3 col-xxl-3 col-xl-2 col-lg-2">
+							<a href="#" class="header__logo">
+								<img class="logo-nofixed" src="assets/images/logo.svg" alt="Логотип">
+								<img class="logo-fixed" src="assets/images/logo-white.svg" alt="Логотип">
+							</a>
+						</div>
+						<div class="col-9 col-xxl-9 col-xl-10 col-lg-10">
+							<nav class="header__menu menu">
+								<ul class="menu__nav nav">
+									<li class="nav__dropdown nav__list">
+										<span class="nav__link header__link">Услуги</span>
+										<span>
+											<svg class="nav__dropdown__arrow">
+												<use xlink:href="#arrow-dropdown"></use>
+											</svg>
+										</span>
+										<ul class="nav__dropdown__menu">
+											<li><a href="#">Разработка сайтов</a></li>
+											<li><a href="#">Поддержка сайтов</a></li>
+											<li>
+												<a href="#">Дизайн</a>
+												<ul class="menu__marker">
+													<li><a href="#">Брендинг</a></li>
+													<li><a href="#">Поддержка</a></li>
+													<li><a href="#">Логотипа</a></li>
+													<li><a href="#">Полиграфии</a></li>
+												</ul>
+											</li>
+											<li><a href="animation.html">Видео и анимация</a></li>
+										</ul>
+									</li>
+									<li class="nav__list"><a href="#" class="nav__link header__link">О Нас</a></li>
+									<li class="nav__list"><a href="#" class="nav__link header__link">Блог</a></li>
+									<li class="nav__list"><a href="#" class="nav__link header__link">Контакты</a></li>
+								</ul>
+								<div class="header__phones phones">
+									<a href="tel:+74950068351" class="header__link">+7 (495) 006-8351</a>
+									<a href="tel:+78126488351" class="header__link">+7 (812) 648-8351</a>
+								</div>
+								<div class="header__btn">
+									<a href="#" class="btn">Оставить заявку</a>
+								</div>
+									<div class="burger" id="burger">
+									<span class="burger__item"></span>
+								</div>
+							</nav>
 						</div>
 					</div>
 				</div>
-			</div>
-		</header>
-	<div class="fullpage" id="fullpage">
-			<!--Intro-->
-			
-		<div class="block-intro section" id="intro">
-			<img class="block-intro__camera" src="assets/images/camera.png" alt="камера">
-			<img class="block-intro__oscar" src="assets/images/oscar.png" alt="оскар">
-		</div>
-			<!--/intro-->
-			<!--Create-->
-					<section class="block-create block section">
-						<div class="container">
-							<div class="block__header">
-								<h2 class="block-create__title title">Мы создаём для вас</h2>
-							</div>
-							<ul class="block-create__menu">
-								<li><a href="#" class="block-create__link">Рекламная анимация</a></li>
-								<li><a href="#" class="block-create__link">Видео-контент</a></li>
-								<li><a href="#" class="block-create__link">Бренд анимация</a></li>
-								<li><a href="#" class="block-create__link">Анимация презентаций</a></li>
-							</ul>
-						</div>
-					</section>
-			<!--/create-->
-			<!--Clip-->
-					<section class="block-clip block section" id="clip">
-						<div class="container">
-							<div class="block__header">
-								<h2 class="block-clip__title title">Самые вкусные ролики</h2>
-							</div>
-							<div class="block-clip__content">
-								<div class="row">
-									<div class="col-md-6 col-sm-12">
-										<a href="#" class="block-clip__item">
-											<img src="assets/images/tasty-clip.jpg" alt="">
-										</a>
-									</div>
-									<div class="col-md-6 col-sm-12">
-										<a href="#" class="block-clip__item">
-											<img src="assets/images/tasty-clip.jpg" alt="">
-										</a>
-									</div>
-									<div class="col-md-6 col-sm-12">
-										<a href="#" class="block-clip__item">
-											<img src="assets/images/tasty-clip.jpg" alt="">
-										</a>
-									</div>
-									<div class="col-md-6 col-sm-12">
-										<a href="#" class="block-clip__item">
-											<img src="assets/images/tasty-clip.jpg" alt="">
-										</a>
+			</header>
+			<div class="fullpage" id="fullpage">
+				<!--Intro-->
+				<div class="block-intro block-intro_p section" id="intro">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4 col-md-5 col-sm-9">
+								<div class="block-intro__info animated fadeIn delay-1s">
+									<div class="block__text block__text-line">
+									D-GROUPS - это агентство с полным<br> спектром услуг по дизайну,<br> web-разработке, маркетингу<br> и рекламной анимации.
 									</div>
 								</div>
 							</div>
 						</div>
-					</section>
-			<!--/clip-->
-			<!--Step-->
-					<section class="block-step block section">
-						<div class="container">
-							<div class="block__header">
-								<h2 class="block-step__title title-big">Этапы создания <span>роликов</span></h2>
-							</div>
-							<div class="block-step__content">
-								<div class="row">
-									<div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
-										<div class="block-step__item">
-											<div class="block-step__img">
-												<img src="assets/images/clip-step1.svg" alt="шаг 1">
-											</div>
-											<div class="block-step__text">
-												Брифинг. Выявление<br> целей, определение<br> стилистики ролика
-											</div>
-										</div>
-									</div>
-									<div class="col-1 block-step__freeplace"></div>
-									<div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
-										<div class="block-step__item">
-											<div class="block-step__img">
-												<img src="assets/images/clip-step2.svg" alt="шаг 1">
-											</div>
-											<div class="block-step__text">
-												Написание<br> и согласование <br> сценария ролика
-											</div>
-										</div>
-									</div>
-									<div class="col-1 block-step__freeplace"></div>
-									<div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
-										<div class="block-step__item">
-											<div class="block-step__img">
-												<img src="assets/images/clip-step3.svg" alt="шаг 1">
-											</div>
-											<div class="block-step__text">
-												Создание статической <br>раскадровки
-											</div>
-										</div>
-									</div>
-									<div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
-										<div class="block-step__item">
-											<div class="block-step__img">
-												<img src="assets/images/clip-step4.svg" alt="шаг 1">
-											</div>
-											<div class="block-step__text">
-												Сборка материала. <br>Съемка видео, если <br> оно необходимо
-											</div>
-										</div>
-									</div>
-									<div class="col-1 block-step__freeplace"></div>
-									<div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
-										<div class="block-step__item">
-											<div class="block-step__img block-step__img-pl">
-												<img src="assets/images/clip-step5.svg" alt="шаг 1">
-											</div>
-											<div class="block-step__text">
-												Монтаж и анимация
-											</div>
-										</div>
-									</div>
-									<div class="col-1 block-step__freeplace"></div>
-									<div class="col-xl-3 col-lg-4 col-sm-6 col-xs-12">
-										<div class="block-step__item">
-											<div class="block-step__img">
-												<img src="assets/images/clip-step6.svg" alt="шаг 1">
-											</div>
-											<div class="block-step__text">
-												Озвучка ролика. <br>Музыкальная, звуковая, <br> голосовая
-											</div>
-										</div>
-									</div>
+					</div>
+					<div class="block-intro__banner">
+						<img class="block-intro__notebook" src="assets/images/intro_index_notebook.webp" alt="">
+						<img class="block-intro__bust animated fadeInRight" src="assets/images/intro_index_bust.webp" alt="">
+					</div>
+				</div>
+				<!--/intro-->
+				<!--Create-->
+				<section class="block-create bg-yellow block section">
+					<div class="container relative">
+						<div class="block__header">
+							<h2 class="block-create__title title">Основные направления агенства</h2>
+						</div>
+						<ul class="block-create__menu">
+							<li><a href="#" class="block-create__link">Разработка сайтов</a></li>
+							<li><a href="#" class="block-create__link">Тех. поддержка</a></li>
+							<li><a href="#" class="block-create__link">Брендинг</a></li>
+							<li><a href="animation.html" class="block-create__link">Видео и анимация</a></li>
+						</ul>
+						<div class="block-create__info block__text block__text-line block__text-line_white">
+							Наша команда работает в нескольких направлениях создания цифрового и визуального продукта.
+						</div>
+						<div class="block-create__letter">
+							<img src="assets/images/3d_d.png" alt="">
+						</div>
+					</div>
+				</section>
+				<!--/create-->
+				<!--Portfolio-->
+				<div class="block-portfolio section">
+					<div class="row">
+						<div class="col-lg-4 col-md-6 col-12">
+							<a href="#" class="block-portfolio__item">
+								<img src="assets/images/futurist.webp" alt="Дизайн каталога интерьеров для победителей конкурса FUTURIST от RBI">
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12">
+							<a href="#" class="block-portfolio__item">
+								<img src="assets/images/beat.webp" alt="Брендинг Для женского боксерского клуба «HEART BEAT»">
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12">
+							<a href="#" class="block-portfolio__item">
+								<img src="assets/images/euromade.webp" alt="Euro">
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12">
+							<a href="#" class="block-portfolio__item">
+								<img src="assets/images/cex.webp" alt="Логотип Для пекарни с ёмким названием «ЦЕХ»">
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12">
+							<a href="#" class="block-portfolio__item">
+								<img src="assets/images/pezzo.webp" alt="Брендинг для пиццерии «Un altro Pezzo»">
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12">
+							<a href="#" class="block-portfolio__item">
+								<img src="assets/images/party.webp" alt="Мерч бук для закрытой вечеринки 2020">
+							</a>
+						</div>
+					</div>
+				</div>
+				<!--/portfolio-->
+				<!--WeDo-->
+				<section class="block block-wedo section">
+					<div class="container">
+						<h2 class="title-big title-big_line">Что мы <span>делаем</span></h2>
+						<div class="block-wedo__content">
+							<div class="row">
+								<div class="col-lg-3 col-md-6 col-12">
+									<div class="block-wedo__item">
+										<a href="#">
+											<img src="assets/images/icon_web.svg" alt="Web разработка">
+										</a>
+										<h3><a class="block-wedo__title title-yellow_semibold" href="#"> Web разработка</a></h3>
+										<ul class="block-wedo__menu">
+											<li><a href="#" class="block-wedo__link">Интернет-магазинов</a></li>
+											<li><a href="#" class="block-wedo__link">Корпоративных сайтов</a></li>
+											<li><a href="#" class="block-wedo__link">Веб-сервисов</a></li>
+											<li><a href="#" class="block-wedo__link">Порталов</a></li>
+										</ul>
+									</div><!--/block-wedo__item-->
+								</div>
+								<div class="col-lg-3 col-md-6 col-12">
+									<div class="block-wedo__item">
+										<a href="#">
+											<img src="assets/images/icon_teh.svg" alt="Тех. поддержка">
+										</a>
+										<h3><a class="block-wedo__title title-yellow_semibold" href="#">Тех. поддержка</a></h3>
+										<ul class="block-wedo__menu">
+											<li><a href="#" class="block-wedo__link">Bitrix.CMS + Bitrix.24</a></li>
+											<li><a href="#" class="block-wedo__link">UMI.CMS</a></li>
+											<li><a href="#" class="block-wedo__link">Laravel</a></li>
+											<li><a href="#" class="block-wedo__link">ShopScript</a></li>
+										</ul>
+									</div><!--/block-wedo__item-->
+								</div>
+								<div class="col-lg-3 col-md-6 col-12">
+									<div class="block-wedo__item">
+										<a href="#">
+											<img src="assets/images/icon_design.svg" alt="Визуал / Дизайн">
+										</a>
+										<h3><a class="block-wedo__title title-yellow_semibold" href="#"> Визуал / Дизайн</a></h3>
+										<ul class="block-wedo__menu">
+											<li><a href="#" class="block-wedo__link">Web сайтов</a></li>
+											<li><a href="#" class="block-wedo__link">Логотипов</a></li>
+											<li><a href="#" class="block-wedo__link">Брендирование</a></li>
+											<li><a href="#" class="block-wedo__link">Полиграфии</a></li>
+										</ul>
+									</div><!--/block-wedo__item-->
+								</div>
+								<div class="col-lg-3 col-md-6 col-12">
+									<div class="block-wedo__item">
+										<a href="#">
+											<img src="assets/images/icon_video.svg" alt="Видео реклама">
+										</a>
+										<h3><a class="block-wedo__title title-yellow_semibold" href="#">Видео реклама</a></h3>
+										<ul class="block-wedo__menu">
+											<li><a href="#" class="block-wedo__link">Рекламную анимацию</a></li>
+											<li><a href="#" class="block-wedo__link">Видео-контент</a></li>
+											<li><a href="#" class="block-wedo__link">Бренд анимация</a></li>
+											<li><a href="#" class="block-wedo__link">Анимация презентаций</a></li>
+										</ul>
+									</div><!--/block-wedo__item-->
 								</div>
 							</div>
 						</div>
-					</section>
-			<!--/step-->
-			<!--Popcorn-->
-					<section class="block block-popcorn section">
-						<div class="container">
-							<div class="block-popcorn__content">
-								<div class="row">
-									<div class="col-lg-6 col-12">
-										<div class="block-popcorn__item">
-											<div class="block-popcorn__img">
-												<img src="assets/images/popcorn.png" alt="">
-											</div>
+					</div>
+				</section>
+				<!--/weDo-->
+				<!--Trust-->
+				<section class="block block-trust section">
+					<div class="container">
+						<div class="block-trust__slider block-trust__slider_clients">
+							<h2 class="title title-line_yellow">Нам доверяют</h2>
+							<div class="slider__block">
+								<div class="slider-trust slider-trust_clients">
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/zaoli.webp" alt="">
 										</div>
 									</div>
-									<div class="col-lg-6 col-12">
-										<div class="block-popcorn__item">
-											<div class="block-popcorn__text block__text">
-												<p>Нам можно доверить все этапы создание ролика или заказать отдельные этапы производства видео.<br>Например, у вас уже готов сценарий и даже раскадровка к будущему ролику, осталось только визуализировать и анимировать элементы.<br>Мы обсудим с вами стилистику клипа , особенности анимации и запустим в производство.</p>
-												<p>Или у вас нет ничего, кроме желания показать продукт через видео клип. Тогда вы можете заказать у нас производства с самого первого этапа - гениальной идеи.</p>
-												<p>Даже если у вас специфическая тематика бизнеса или нет материала, который можно использовать в ролике (видео/фото/логотипа). Мы и это создадим и предложим варианты создания клипа с разными временными и финансовыми затратами.</p>
-											</div>
-											<a href="#" class="block-popcorn__btn btn">Оставить заявку</a>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/euro.webp" alt="">
 										</div>
 									</div>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/muh.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/garage.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/printuem.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/zaoli.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/euro.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/muh.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/garage.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/printuem.webp" alt="">
+										</div>
+									</div>
+								</div><!--/slider-trust-->
+								<div class="arrows">
+									<svg class="slider__arrow slider__arrow-prev slider-clients__arrow-prev">
+										<use xlink:href="#arrow-slider"></use>
+									</svg>
+									<svg class="slider__arrow slider__arrow-next slider-clients__arrow-next">
+										<use xlink:href="#arrow-slider"></use>
+									</svg>
 								</div>
 							</div>
+						</div><!--/block-trust__slider-->
+						<div class="block-trust__slider block-trust__slider_partners">
+							<h2 class="title title-line_yellow">Мы партнеры</h2>
+							<div class="slider__block slider__block_partners">
+								<div class="slider-trust slider-trust_partners">
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/google.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/yandex.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/bitrix.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/umi.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/cloud.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/google.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/yandex.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/bitrix.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/umi.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-trust__wrapper">
+										<div class="slider-trust__item">
+											<img src="assets/images/cloud.webp" alt="">
+										</div>
+									</div>
+								</div><!--/slider-trust-->
+								<div class="arrows">
+									<svg class="slider__arrow slider__arrow-prev slider-partners__arrow-prev">
+										<use xlink:href="#arrow-slider"></use>
+									</svg>
+									<svg class="slider__arrow slider__arrow-next slider-partners__arrow-next">
+										<use xlink:href="#arrow-slider"></use>
+									</svg>
+								</div>
+							</div>
+						</div><!--/block-trust__slider-->
+						<div class="scroll"></div>
+					</div>
+				</section>
+				<!--/trust-->
+				<!--Power-->
+				<section class="block block-power section bg-gray" id="power">
+					<div class="container">
+						<div class="block-power__content power-block">
+							
+								<img class="block-power__images" src="assets/images/power_1.svg" alt="">
+							
+							<div class="block-power__images block-power__decor block-power__decor-dash">
+								<img src="assets/images/power_2.svg" alt="">
+							</div>
+							<div class="block-power__images block-power__decor block-power__decor-icon">
+								<img src="assets/images/power_4.svg" alt="">
+							</div>
+							<div class="block-power__images block-power__decor block-power__decor-words">
+								<img src="assets/images/power_3.svg" alt="">
+							</div>
 						</div>
-					</section>
-			<!--/popcorn-->
-		<!--Footer-->
-		<footer class="footer section">
+					</div>
+				</section>
+				<!--/power-->
+
+				<section class="block section">
+					<div class="container">
+						<div class="block__slider block__slider_index">
+							<h2 class="title title-line_yellow">Сертификаты</h2>
+							<div class="slider__block">
+								<div class="slider-certificates">
+									<div class="slider-certificates__wrapper">
+										<div class="slider-certificates__item">
+											<img src="assets/images/certificate-bitrix_01.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-certificates__wrapper">
+										<div class="slider-certificates__item">
+											<img src="assets/images/certificate-bitrix_02.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-certificates__wrapper">
+										<div class="slider-certificates__item">
+											<img src="assets/images/certificate-umi.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-certificates__wrapper">
+										<div class="slider-certificates__item">
+											<img src="assets/images/certificate-yandex.webp" alt="">
+										</div>
+									</div>
+									<div class="slider-certificates__wrapper">
+										<div class="slider-certificates__item">
+											<img src="assets/images/certificate-cloud.webp" alt="">
+										</div>
+									</div>
+								</div><!--/slider-certificates-->
+								<div class="arrows">
+									<svg class="slider__arrow slider__arrow-prev slider-certificates__arrow-prev">
+										<use xlink:href="#arrow-slider"></use>
+									</svg>
+									<svg class="slider__arrow slider__arrow-next slider-certificates__arrow-next">
+										<use xlink:href="#arrow-slider"></use>
+									</svg>
+								</div>
+							</div>
+						</div><!--/block__slider-->
+						<div class="block__news news">
+							<h2 class="title title-line_yellow">Новое в блоге</h2>
+							<div class="block__news__content news__content">
+								<div class="news__col">
+									<div class="news__item">
+										<h3><a class="news__title" href="#">Brand book, Style guide и тому подобное. Что это? В чём отличие?</a></h3>
+										<div class="news__anons">
+										 - Нам нужен Брендбук! – заявляет кто-то из команды и мысленно меняет себе подпись в био на «Бренд-ме... 
+										</div>
+										<div class="news__info">
+											<div class="new__autor">
+												<img src="assets/images/author.webp" alt="">
+												<span>Nicka Che</span>
+											</div>
+											<div class="news__tags">#про_дезигн</div>
+										</div>
+									</div><!--/news__item-->
+								</div>
+								<div class="news__col">
+									<div class="news__item">
+										<h3><a class="news__title" href="#">Угадали с цветом или Pantone 2021</a></h3>
+										<div class="news__anons">
+										 Забавный факт, когда в прошлом 2020 году Pantone объявил цветом года электрический синий, я шутила, ...
+										</div>
+										<div class="news__info">
+											<div class="new__autor">
+												<img src="assets/images/author.webp" alt="">
+												<span>Nicka Che</span>
+											</div>
+											<div class="news__tags">#про_дезигн, Pantone, тренды</div>
+										</div>
+									</div><!--/news__item-->
+								</div>
+								<div class="news__col">
+									<div class="news__item">
+										<h3><a class="news__title" href="#">Дизайн сопровождение. Что это и кому оно необходимо?</a></h3>
+										<div class="news__anons">
+										Так или иначе, с заказом полиграфических или web макетов сталкиваются все виды бизнеса, но всем ли и...
+										</div>
+										<div class="news__info">
+											<div class="new__autor">
+												<img src="assets/images/author.webp" alt="">
+												<span>Nicka Che</span>
+											</div>
+											<div class="news__tags">#про_дезигн</div>
+										</div>
+									</div><!--/news__item-->
+								</div>
+								<div class="news__col">
+									<div class="news__item">
+										<h3><a class="news__title news__title_short" href="#">Запуск сайта</a></h3>
+										<div class="news__anons">
+										Запустили полноценную рабочую версию сайта. И рады вам у нас в социальных сетях.
+										</div>
+										<div class="news__info">
+											<div class="new__autor">
+												<img src="assets/images/author.webp" alt="">
+												<span>Nicka Che</span>
+											</div>
+											<div class="news__tags">#новости</div>
+										</div>
+									</div><!--/news__item-->
+								</div>
+							</div><!--/news__block-->
+						</div>
+					</div>
+				</section>
+
+				<!--Footer-->
+				<footer class="footer section">
 					<div class="footer__inner">
 						<div class="map-block">
 							<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7e0213c07e7f49e4aed4ea2635091c2e552f78369f2253c221537f27af4eb2f7&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
 						</div>
 						<div class="footer__content">
 							<div class="container container-footer">
-						<div class="row">
-							<div class="col-xl-3 col-lg-2 col-md-2 col-12 pl-md-0">
-								<a href="#" class="footer__logo">
-									<img src="assets/images/logo-white.svg" alt="лого">
-								</a>
-							</div>
-							<div class="col-xxl-2 col-1 footer__freeplace"></div>
-							<div class="col-xl-2 col-lg-3 col-md-3 col-5 p-md-0">
-								<div class="footer__menu">
-									<div class="footer__menu__column">
-									<a class="footer__text footer__link">Разработка сайтов</a>
-									<a class="footer__text footer__link">Техническая поддержка</a>
-									<a class="footer__text footer__link">Брендинг</a>
-									<a class="footer__text footer__link">Видео и анимация</a>
-								</div>
-								<div class="footer__menu__column">
-									<a class="footer__text footer__link">Контакты</a>
-									<a class="footer__text footer__link">Блог</a>
-								</div>
-								</div>
-							</div>
-							<div class="col-1 footer__freeplace"></div>
-							<div class="col-xxl-3 col-lg-4 col-md-4 col-7">
-								<div class="footer__about">
-									<div class="footer__icon">
-										<img src="assets/images/pin.svg" alt="иконка локации">
+								<div class="row">
+									<div class="col-xl-3 col-lg-2 col-md-2 col-12">
+										<a href="/" class="footer__logo">
+											<img src="assets/images/logo-white.svg" alt="лого">
+										</a>
 									</div>
-									<div class="footer__text footer__info">Санкт-Петербург<br>ул. Варшавская 15</div>
-								</div>
-								<div class="footer__about">
-									<div class="footer__icon footer__icon-phone">
-										<img src="assets/images/phone.svg" alt="иконка телефона">
+									<div class="col-xxl-2 col-1 footer__freeplace"></div>
+									<div class="col-xl-2 col-lg-3 col-md-3 col-5 p-md-0">
+										<div class="footer__menu">
+											<div class="footer__menu__column">
+											<a href="#" class="footer__text footer__link">Разработка сайтов</a>
+											<a href="#" class="footer__text footer__link">Техническая поддержка</a>
+											<a href="#" class="footer__text footer__link">Брендинг</a>
+											<a href="animation.html" class="footer__text footer__link">Видео и анимация</a>
+										</div>
+										<div class="footer__menu__column">
+											<a href="#" class="footer__text footer__link">Контакты</a>
+											<a href="#" class="footer__text footer__link">Блог</a>
+										</div>
+										</div>
 									</div>
-									<div class="footer__info">
-										<a href="tel:+74950068351" class="footer__text footer__link">+7 (495) 006-8351</a>
-										<a href="tel:+78126488351" class="footer__text footer__link">+7 (812) 648-8351</a>
+									<div class="col-1 footer__freeplace"></div>
+									<div class="col-xxl-3 col-lg-4 col-md-4 col-7">
+										<div class="footer__about">
+											<div class="footer__icon">
+												<img src="assets/images/pin.svg" alt="иконка локации">
+											</div>
+											<div class="footer__text footer__info">Санкт-Петербург<br>ул. Варшавская 15</div>
+										</div>
+										<div class="footer__about">
+											<div class="footer__icon footer__icon-phone">
+												<img src="assets/images/phone.svg" alt="иконка телефона">
+											</div>
+											<div class="footer__info">
+												<a href="tel:+74950068351" class="footer__text footer__link">+7 (495) 006-8351</a>
+												<a href="tel:+78126488351" class="footer__text footer__link">+7 (812) 648-8351</a>
+											</div>
+										</div>
+										<div class="footer__about">
+											<div class="footer__icon">
+												<img src="assets/images/mail.svg" alt="иконка почты">
+											</div>
+											<div class="footer__info">
+												<a href="mailto:hello@d-groups.ru" class="footer__text footer__link">hello@d-groups.ru</a>
+												<a href="mailto:dev@d-groups.ru" class="footer__text footer__link">design@d-groups.ru</a>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-1 col-12">
+										<div class="footer__social">
+											<a href="#" class="footer__icon-social" target="blank">
+												<img src="assets/images/behance.svg" alt="behance">
+											</a>
+											<a href="#" class="footer__icon-social" target="blank">
+												<img src="assets/images/twitter.svg" alt="twitter">
+											</a>
+											<a href="#" class="footer__icon-social" target="blank">
+												<img src="assets/images/facebook.svg" alt="facebook">
+											</a>
+											<a href="#" class="footer__icon-social" target="blank">
+												<img src="assets/images/instagram.svg" alt="instagram">
+											</a>
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="footer__copyright footer__text">Copyright 2015-2021 ©</div>
 									</div>
 								</div>
-								<div class="footer__about">
-									<div class="footer__icon">
-										<img src="assets/images/mail.svg" alt="иконка почты">
-									</div>
-									<div class="footer__info">
-										<a href="mailto:hello@d-groups.ru" class="footer__text footer__link">hello@d-groups.ru</a>
-										<a href="mailto:dev@d-groups.ru" class="footer__text footer__link">design@d-groups.ru</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-1 col-12">
-								<div class="footer__social">
-									<a href="#" class="footer__icon-social" target="blank">
-										<img src="assets/images/behance.svg" alt="behance">
-									</a>
-									<a href="#" class="footer__icon-social" target="blank">
-										<img src="assets/images/twitter.svg" alt="twitter">
-									</a>
-									<a href="#" class="footer__icon-social" target="blank">
-										<img src="assets/images/facebook.svg" alt="facebook">
-									</a>
-									<a href="#" class="footer__icon-social" target="blank">
-										<img src="assets/images/instagram.svg" alt="instagram">
-									</a>
-								</div>
-							</div>
-							<div class="col-12 pl-md-0">
-								<div class="footer__copyright footer__text">Copyright 2015-2021 ©</div>
 							</div>
 						</div>
 					</div>
-						</div>
-					</div>
-		</footer>
-		<!--/footer-->
-	</div>
-	<div class="header__menu_mobile">
-								<ul class="pl-0">
-									<li>
-										<span class="nav__link header__link">Сервисы:</span>
-										<ul>
-											<li class="menu__dots"><a class="nav__link header__link" href="#">Разработка сайтов</a></li>
-											<li class="menu__dots"><a class="nav__link header__link" href="#">Поддержка сайтов</a></li>
-											<li class="menu__dots">
-												<a class="nav__link header__link" href="#">Дизайн</a>
-												<ul class="menu__marker">
-													<li><a class="header__link" href="#">Брендинг</a></li>
-													<li><a class="header__link" href="#">Поддержка</a></li>
-													<li><a class="header__link" href="#">Логотипа</a></li>
-													<li><a class="header__link" href="#">Полиграфии</a></li>
+				</footer>
+				<!--/footer-->
+			</div>
+			<nav class="header__menu_mobile">
+										<ul class="pl-0">
+											<li>
+												<span class="nav__link header__link">Услуги:</span>
+												<ul>
+													<li class="menu__dots"><a class="nav__link header__link" href="#">Разработка сайтов</a></li>
+													<li class="menu__dots"><a class="nav__link header__link" href="#">Поддержка сайтов</a></li>
+													<li class="menu__dots">
+														<a class="nav__link header__link" href="#">Дизайн</a>
+														<ul class="menu__marker">
+															<li><a class="header__link" href="#">Брендинг</a></li>
+															<li><a class="header__link" href="#">Поддержка</a></li>
+															<li><a class="header__link" href="#">Логотипа</a></li>
+															<li><a class="header__link" href="#">Полиграфии</a></li>
+														</ul>
+													</li>
+													<li class="menu__dots"><a class="nav__link header__link" href="animation.html">Видео и анимация</a></li>
 												</ul>
 											</li>
-											<li class="menu__dots"><a class="nav__link header__link" href="#">Видео и анимация</a></li>
+											<li><a href="#" class="nav__link header__link">О Нас</a></li>
+											<li><a href="#" class="nav__link header__link">Блог</a></li>
+											<li><a href="#" class="nav__link header__link">Контакты</a></li>
 										</ul>
-									</li>
-									<li><a href="#" class="nav__link header__link">О Нас</a></li>
-									<li><a href="#" class="nav__link header__link">Блог</a></li>
-									<li><a href="#" class="nav__link header__link">Контакты</a></li>
-								</ul>
-								<div class="header__btn_mobile">
-									<a href="#" class="btn">Заполнить бриф</a>
-								</div>
-							</div>
-</div>
+										<div class="header__btn_mobile">
+											<a href="#" class="btn">Оставить заявку</a>
+										</div>
+									</div>
+			</nav>
 
 
 	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<script src="assets/js/slick.min.js"></script>
 	<script src="https://alvarotrigo.com/fullPage/fullpage.min.js"></script>
 	<script src="assets/js/script.js"></script>
 </body>

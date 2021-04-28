@@ -6,6 +6,15 @@ function step()
 	});
 }
 
+function showePowerBlocks()
+{
+	$('.active .block-power__decor').each(function(index) {
+		$(this).delay(400*index).fadeIn(1000);
+	});
+}
+
+
+
 
 $(document).ready(function() {
 	/*Dropdown Menu*/
@@ -61,7 +70,182 @@ $(document).ready(function() {
 	});
 	}
 
+	/*Slider-clients*/
+	$('.slider-trust_clients').slick({
+		infinite: true,
+		slidesToShow: 5,
+		slidesToScroll: 5,
+		dots: false,
+		prevArrow: $('.slider-clients__arrow-prev'),
+		nextArrow: $('.slider-clients__arrow-next'),
+
+		responsive: [
+	{
+		breakpoint: 1025,
+			settings: {
+			slidesToShow: 4,
+			slidesToScroll: 4,
+			infinite: true,
+			dots: false,
+			prevArrow: $('.slider-clients__arrow-prev'),
+			nextArrow: $('.slider-clients__arrow-next'),
+		}
+	},
+	{
+		breakpoint: 769,
+			settings: {
+			slidesToShow: 3,
+			slidesToScroll: 3,
+			infinite: true,
+			dots: false,
+			prevArrow: $('.slider-clients__arrow-prev'),
+			nextArrow: $('.slider-clients__arrow-next'),
+		}
+	},
+	{
+		breakpoint: 547,
+			settings: {
+			slidesToShow: 2,
+			slidesToScroll: 2,
+			infinite: true,
+			dots: false,
+			prevArrow: $('.slider-clients__arrow-prev'),
+			nextArrow: $('.slider-clients__arrow-next'),
+		}
+	},
+	{
+		breakpoint: 376,
+			settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			infinite: true,
+			dots: false,
+			prevArrow: $('.slider-clients__arrow-prev'),
+			nextArrow: $('.slider-clients__arrow-next'),
+		}
+	},
+  ]
+		});
+
+	/*Slider-partners*/
+	$('.slider-trust_partners').slick({
+		infinite: true,
+		slidesToShow: 5,
+		slidesToScroll: 5,
+		dots: false,
+		prevArrow: $('.slider-partners__arrow-prev'),
+		nextArrow: $('.slider-partners__arrow-next'),
+
+		responsive: [
+	{
+		breakpoint: 1025,
+			settings: {
+			slidesToShow: 4,
+			slidesToScroll: 4,
+			infinite: true,
+			dots: false,
+			prevArrow: $('.slider-partners__arrow-prev'),
+			nextArrow: $('.slider-partners__arrow-next'),
+		}
+	},
+	{
+		breakpoint: 769,
+			settings: {
+			slidesToShow: 3,
+			slidesToScroll: 3,
+			infinite: true,
+			dots: false,
+			prevArrow: $('.slider-partners__arrow-prev'),
+			nextArrow: $('.slider-partners__arrow-next'),
+		}
+	},
+	{
+		breakpoint: 547,
+			settings: {
+			slidesToShow: 2,
+			slidesToScroll: 2,
+			infinite: true,
+			dots: false,
+			prevArrow: $('.slider-partners__arrow-prev'),
+			nextArrow: $('.slider-partners__arrow-next'),
+		}
+	},
+	{
+		breakpoint: 376,
+			settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			infinite: true,
+			dots: false,
+			prevArrow: $('.slider-partners__arrow-prev'),
+			nextArrow: $('.slider-partners__arrow-next'),
+		}
+	},
+  ]
+		});
+
+	/*Slider-certificates*/
+	$('.slider-certificates').slick({
+		infinite: true,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		dots: false,
+		prevArrow: $('.slider-certificates__arrow-prev'),
+		nextArrow: $('.slider-certificates__arrow-next'),
+
+		responsive: [
+	{
+		breakpoint: 1025,
+			settings: {
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			infinite: true,
+			dots: false,
+			prevArrow: $('.slider-certificates__arrow-prev'),
+			nextArrow: $('.slider-certificates__arrow-next'),
+		}
+	},
+	{
+		breakpoint: 769,
+			settings: {
+			slidesToShow: 2,
+			slidesToScroll: 2,
+			infinite: true,
+			dots: false,
+			prevArrow: $('.slider-certificates__arrow-prev'),
+			nextArrow: $('.slider-certificates__arrow-next'),
+		}
+	},
+	{
+		breakpoint: 415,
+			settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			infinite: true,
+			dots: false,
+			prevArrow: $('.slider-certificates__arrow-prev'),
+			nextArrow: $('.slider-certificates__arrow-next'),
+		}
+	}
+
+  ]
+		});
+
+	
+
 });
+
+
+window.addEventListener('scroll', function() {
+	if(pageYOffset > 500){
+		$(".block-create__letter").addClass('animated bounceIn')
+	}
+
+	if(pageYOffset > 1200){
+		$(".block-create__letter").removeClass('animated bounceIn')
+	}
+});
+
 
 
 	/*Step*/
@@ -78,3 +262,16 @@ $(document).ready(function() {
 		step();
 	});
 
+	/*showePowerBlocks*/
+	$(window).on('load', function () {
+		setTimeout( function() { showePowerBlocks(); } ,500)
+		if($(window).width() <= 1024) { 
+		$('.block-power__decor').each(function(index) {
+			$(this).delay(400*index).fadeIn(1000);
+		});
+		}
+	});
+
+	$(window).scroll(function() {
+		showePowerBlocks();
+	});

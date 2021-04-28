@@ -1,0 +1,193 @@
+.block {
+	&__text {
+		font-family: $ff;
+		font-size: $mfz;
+		font-weight: 400;
+		line-height: 1.3;
+		color: $bl;
+		&-line {
+			position: relative;
+			z-index: 5;
+			padding-left: 26px;
+			&:before {
+				content: "";
+				display: block;
+				width: 11px;
+				height: 100%;
+				background-color: $c;
+				position: absolute;
+				left: 0;
+				top: 0;
+				z-index: 1;
+			}
+			&_white {
+				padding-left: 34px;
+				&:before {
+					background-color: $wh;
+				}
+			}
+		}
+	}
+	&-intro {
+		position: relative;
+		overflow: hidden;
+		&_p {
+			padding-top: 160px;
+		}
+		&__info {
+			margin-top: 320px;
+			padding-left: 15px;
+		}
+		&__notebook {
+			width: 1100px;
+			position: absolute;
+			top: 160px;
+			right: 0;
+			z-index: 2;
+		}
+		&__bust {
+			width: 400px;
+			position: absolute;
+			top: 230px;
+			right: 655px;
+			z-index: 1;
+		}
+	}
+	&-create {
+		overflow: hidden;
+		&__info {
+			position: absolute;
+			top: 0;
+			right: 0;
+			z-index: 1;
+			max-width: 270px;
+		}
+		&__menu {
+			margin-top: 100px;
+			padding-left: 50px;
+			position: relative;
+			z-index: 2;
+			li {
+				margin-bottom: 65px;
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+		&__link {
+			font-family: $ff;
+			font-size: 5rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: $b2;
+			position: relative;
+			z-index: 1;
+			display: inline-block;
+			transition: all 400ms ease;
+			&:before {
+					content: "";
+					height: 27%;
+					width: 80%;
+					background-color: $wh;
+					position: absolute;
+					left: 0;
+					bottom: 5%;
+					z-index: -1;
+					display: none;
+			}
+			&:hover {
+				color: $b2;
+			}
+			@media(min-width: 1024px) {
+				&:hover {
+				padding-left: 50px;
+				margin-left: 30px;
+				&:before {
+						left: 3%;
+						display: block;
+					}
+				}
+			}
+		}
+		&__letter {
+			position: absolute;
+			bottom: -280px;
+			right: 0;
+			z-index: 1;
+			img {
+				max-width: 100%;
+			}
+		}
+	}
+	&-portfolio {
+		overflow: hidden;
+		.row {
+			padding-top: 4vh;
+		}
+		.row>* {
+			padding: 0;
+		}
+		&__item {
+			display: block;
+			filter: grayscale(100%);
+			overflow: hidden;
+			transition: filter .2s linear;
+			&:hover {
+				filter: grayscale(0%);
+			}
+			img {
+				height: 48vh;
+			}
+		}
+	}
+	&-trust {
+		position: relative;
+		&__slider {
+			margin-top: 40px;
+			&_partners {
+				margin-top: 68px;
+			}
+		}
+	}
+	&__news {
+		margin-top: 48px;
+	}
+	&-power {
+		&__content {
+			position: relative;
+			margin-top: 40px;
+		}
+		&__images {
+			width: 100%;
+			max-width: 100;
+			margin: 0 auto;
+		}
+		&__ourpower {
+		}
+		&__decor {
+			&-dash {
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 2;
+				display: none;
+			}
+			&-words {
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 4;
+				display: none;
+			}
+			&-icon {
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 3;
+				display: none;
+			}
+		}
+	}
+}
+
+@import 'blocks-adaptive.scss';

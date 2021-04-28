@@ -1,8 +1,10 @@
 @media (max-width: 1320px) {
 	.block {
 		&-intro {
-			background-position: top 120px left 30%;
-			background-size: 95%;
+			&_motion {
+				background-position: top 120px left 30%;
+				background-size: 95%;
+			}
 			&__camera {
 				margin-top: 170px;
 				margin-left: -15%;
@@ -12,17 +14,6 @@
 				width: 200px;
 				top: 235px;
 				right: 20%;
-			}
-		}
-		&-create {
-			&__menu {
-				margin-top: 70px;
-				li {
-					margin-bottom: 40px;
-				}
-			}
-			&__link {
-				font-size: 60px;
 			}
 		}
 		&-popcorn {
@@ -49,7 +40,9 @@
 	.block {
 		padding: 56px 0;
 		&-intro {
-			background-position: top 100px left 30%;
+			&_motion {
+				background-position: top 100px left 30%;
+			}
 			&__camera {
 				max-height: 30vh;
 				margin: 135px 0 80px -15%;
@@ -57,11 +50,6 @@
 			&__oscar {
 				width: 160px;
 				top: 195px;
-			}
-		}
-		&-create {
-			&__link {
-				font-size: 50px;
 			}
 		}
 		&-clip {
@@ -102,14 +90,9 @@
 			}
 		}
 		&-create {
-			background-size: auto 80%;
-			background-position: top 30% right -40px;
-			&__menu {
-				padding-left: 5%;
-				margin-top: 50px;
-			}
-			&__link {
-				font-size: 40px;
+			&_motion {
+				background-size: auto 80%;
+				background-position: top 30% right -40px;
 			}
 		}
 		&-step {
@@ -137,11 +120,6 @@
 			&__oscar {
 				width: 80px;
 				top: 150px;
-			}
-		}
-		&-create {
-			&__link {
-				font-size: 30px;
 			}
 		}
 		&-clip {
@@ -180,7 +158,9 @@
 @media (max-width: 414px) {
 	.block {
 		&-intro {
-			background-position: top 100px left 30%;
+			&_motion {
+				background-position: top 100px left 30%;
+			}
 			&__camera {
 				max-height: 25vh;
 				margin: 105px 0 30px -15%;
@@ -188,14 +168,6 @@
 			&__oscar {
 				width: 60px;
 				top: 140px;
-			}
-		}
-		&-create {
-			&__menu {
-				margin-top: 40px;
-			}
-			&__link {
-				font-size: 25px;
 			}
 		}
 		&-step {
@@ -216,11 +188,6 @@
 				width: 50px;
 				top: 130px;
 				right: 18%;
-			}
-		}
-		&-create {
-			&__link {
-				font-size: 20px;
 			}
 		}
 	}
@@ -276,17 +243,6 @@
 			&__oscar {
 				width: 200px;
 				top: 280px;
-			}
-		}
-		&-create {
-			&__menu {
-				margin-top: 60px;
-				li {
-					margin-bottom: 50px;
-				}
-			}
-			&__link {
-				font-size: 60px;
 			}
 		}
 		&-clip {

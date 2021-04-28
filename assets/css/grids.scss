@@ -1,6 +1,6 @@
 .container {
 	@media (min-width: 1320px) {
-	max-width: 1260px;
+	max-width: 1290px;
 	}
 }
 
@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6 {
 p {
 	padding: 0;
 	margin: 0 0 1rem 0;
+}
+
+.relative {
+	position: relative;
 }
 
 .block {
