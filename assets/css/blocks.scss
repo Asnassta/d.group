@@ -153,13 +153,22 @@
 		margin-top: 48px;
 	}
 	&-power {
+		position: relative;
+		@media(min-width: 1025px) {
+			.container {
+			position: absolute;
+			width: 100%;
+			left: 50%;
+			top: calc(50% + 30px);
+			transform: translate3D(-50%, -50%, 0);
+			}
+		}
 		&__content {
 			position: relative;
-			margin-top: 40px;
 		}
 		&__images {
 			width: 100%;
-			max-width: 100;
+			max-width: 100%;
 			margin: 0 auto;
 		}
 		&__ourpower {

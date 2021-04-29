@@ -14,6 +14,7 @@ html,body{
 	font-family: $ff;
 	line-height: 1;
 	font-size: 14px;
+	color: $b2;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -21,6 +22,7 @@ html,body{
 body.hidden {
 	overflow: hidden!important;
 }
+
 input,button,textarea{font-family:inherit;}
 
 button{cursor: pointer;}
@@ -81,11 +83,18 @@ img{vertical-align: top;}
 		&:hover {
 			color: $c;
 		}
+		&:focus {
+			color: $b2;
+		}
+		&:active {
+			color: $b2;
+		}
 	}
 	&__phones {
 		transition: transform .5s cubic-bezier(0.22, 0.61, 0.36, 1);
 		a {
 			margin-right: 15px;
+			transition: color 0s;
 			&:last-child {
 				margin-right: 0;
 			}
@@ -427,6 +436,7 @@ img{vertical-align: top;}
 	}
 }
 
+
 /*Footer*/
 .footer {
 	background-color: $bl;
@@ -457,7 +467,7 @@ img{vertical-align: top;}
 	}
 	&__link {
 		cursor: pointer;
-		transition: color .3s ease;
+		transition: all .3s ease;
 		&:hover {
 			color: $c;
 		}

@@ -54,7 +54,7 @@
 			position: absolute;
 			top: 13px;
 			left: 50%;
-			transform: translateX(-50%);
+			margin-left: -40px;
 			z-index: 1;
 			a {
 				display: block;
@@ -116,6 +116,16 @@
 		font-size: 22px;
 		&-big {
 			font-size: 35px;
+			&_line {
+				&:after {
+					left: -38%;
+				}
+			}
+		}
+		&-yellow {
+			&_semibold {
+				font-size: 26px;
+			}
 		}
 	}
 	.footer {

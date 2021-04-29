@@ -56,7 +56,11 @@
 				margin-top: 40px;
 			}
 			&__menu {
-				margin-top: 35px;
+				margin-top: 18px;
+				li {
+					font-size: 18px;
+					line-height: 2.3;
+				}
 			}
 			&__item {
 				margin-bottom: 50px;
