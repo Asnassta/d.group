@@ -1,3 +1,16 @@
+@media (min-width: 2200px) {
+	.block {
+		&-intro {
+			&__notebook {
+				width: 1350px;
+			}
+			&__bust {
+				width: 500px;
+				right: 35%;
+			}
+		}
+	}
+}
 @media (max-width: 1440px) {
 	.block {
 		&-intro {
@@ -11,8 +24,8 @@
 			}
 			&__bust {
 				width: 21%;
-				top: 210px;
-				right: 37%;
+				top: 180px;
+				right: 38%;
 			}
 		}
 		&-create {
@@ -44,6 +57,7 @@
 			}
 			&__notebook {
 				width: 67%;
+				right: 0;
 			}
 			&__bust {
 				width: 25%;
