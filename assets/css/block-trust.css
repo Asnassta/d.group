@@ -1,0 +1,11 @@
+.block-trust {
+  position: relative; }
+  .block-trust__slider {
+    margin-top: 40px; }
+    .block-trust__slider_partners {
+      margin-top: 68px; }
+
+/*Adaptive*/
+@media (max-width: 1440px) {
+  .block-trust__slider_clients {
+    margin-top: 0; } }

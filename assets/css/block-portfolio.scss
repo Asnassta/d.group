@@ -1,0 +1,40 @@
+.block {
+	&-portfolio {
+		overflow: hidden;
+		.row {
+			padding-top: 4vh;
+		}
+		.row>* {
+			padding: 0;
+		}
+		&__item {
+			display: block;
+			filter: grayscale(100%);
+			overflow: hidden;
+			transition: filter .2s linear;
+			&:hover {
+				filter: grayscale(0%);
+			}
+			img {
+				height: 48vh;
+			}
+		}
+	}
+}
+
+/*Adaptive*/
+@media (max-width: 1024px) {
+	.block {
+		&-portfolio {
+			.row {
+				padding-top: 0;
+			}
+			&__item {
+			img {
+				height: auto;
+				max-width: 100%;
+				}
+			}
+		}
+	}
+}

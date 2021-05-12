@@ -1,5 +1,6 @@
-.container, .container-lg, .container-md, .container-sm, .container-xl {
-  max-width: 1260px !important; }
+@media (min-width: 1320px) {
+  .container {
+    max-width: 1290px; } }
 
 * {
   padding: 0;
@@ -18,3 +19,35 @@ h1, h2, h3, h4, h5, h6 {
 p {
   padding: 0;
   margin: 0 0 1rem 0; }
+
+.relative {
+  position: relative; }
+
+.block {
+  padding-top: 112px; }
+
+@media (min-width: 768px) {
+  .p-md-0 {
+    padding: 0; } }
+
+@media (min-width: 1200px) {
+  .pr-xl-0 {
+    padding-right: 0; } }
+
+@media (min-width: 1200px) {
+  .pl-xl-0 {
+    padding-left: 0; } }
+
+@media (min-width: 992px) {
+  .pl-lg-0 {
+    padding-right: 0; } }
+
+@media (min-width: 768px) {
+  .pl-md-0 {
+    padding-left: 0; } }
+
+.pl-0 {
+  padding-left: 0px; }
+
+.mb-1 {
+  margin-bottom: 1rem !important; }

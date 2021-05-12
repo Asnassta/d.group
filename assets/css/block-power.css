@@ -1,0 +1,42 @@
+.block-power {
+  position: relative; }
+  .block-power img {
+    max-width: 100%; }
+  @media (min-width: 1025px) {
+    .block-power .container {
+      position: absolute;
+      width: 100%;
+      left: 50%;
+      top: calc(50% + 30px);
+      -webkit-transform: translate3D(-50%, -50%, 0);
+      -ms-transform: translate3D(-50%, -50%, 0);
+      transform: translate3D(-50%, -50%, 0); } }
+  .block-power__content {
+    position: relative; }
+  .block-power__images {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto; }
+  .block-power__decor-dash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none; }
+  .block-power__decor-words {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    display: none; }
+  .block-power__decor-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: none; }
+
+/*Adaptive*/
+@media (max-width: 1440px) {
+  .block-power__content {
+    margin-top: 0; } }

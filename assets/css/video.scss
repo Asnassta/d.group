@@ -1,0 +1,73 @@
+
+.block {
+	&-intro {
+		&_motion {
+			text-align: center;
+			background: url("../images/intro.svg") top 150px left 85% no-repeat;
+			background-size: 88%;
+		}
+		&__camera {
+			display: inline-block;
+			max-width: 100%;
+			margin-top: 215px;
+			img {
+			max-height: 70vh;
+			}
+		}
+		&__oscar {
+			position: absolute;
+			top: 300px;
+			right: 18%;
+			z-index: 1;
+		}
+	}
+	&-create {
+		&_motion {
+			background: url("../images/motion.svg") right bottom / auto 100% no-repeat, $c;
+		}
+	}
+	&-clip {
+		overflow: hidden;
+		&__title {
+			&:before {
+				background-color: $c;
+			}
+		}
+		&__content {
+			margin-top: 45px;
+			position: relative;
+			z-index: 2;
+			&:before {
+				content: "";
+				width: 288px;
+				height: 475px;
+				background: url("../images/dots-yellow.svg");
+				position: absolute;
+				top: 60px;
+				right: -200px;
+				z-index: -1;
+			}
+		}
+		&__item {
+			display: block;
+			margin-bottom: 24px;
+		}
+		img {
+			max-width: 100%;
+		}
+	}
+	&-popcorn {
+		padding-bottom: 30px;
+		&__img {
+			margin-left: -105px;
+		}
+		&__text {
+			padding-top: 120px;
+		}
+		&__btn {
+			margin: 70px auto 0;
+		}
+	}
+}
+
+@import 'video-adaptive.scss';

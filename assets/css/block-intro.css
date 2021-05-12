@@ -1,0 +1,96 @@
+.block-intro {
+  position: relative;
+  overflow: hidden; }
+  .block-intro img {
+    max-width: 100%; }
+  .block-intro_p {
+    padding-top: 160px; }
+  .block-intro__info {
+    margin-top: 320px;
+    padding-left: 15px; }
+  .block-intro__notebook {
+    width: 1100px;
+    position: absolute;
+    top: 160px;
+    right: 30px;
+    z-index: 2; }
+  .block-intro__bust {
+    width: 400px;
+    position: absolute;
+    top: 235px;
+    right: 685px;
+    z-index: 1; }
+  .block-intro__title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: #000; }
+
+/*Adaptive*/
+@media (min-width: 2200px) {
+  .block-intro__notebook {
+    width: 1350px; }
+  .block-intro__bust {
+    width: 500px;
+    right: 35%; } }
+
+@media (max-width: 1440px) {
+  .block-intro__info {
+    margin-top: 250px; }
+  .block-intro__notebook {
+    width: 60%;
+    top: auto;
+    bottom: 0; }
+  .block-intro__bust {
+    width: 21%;
+    top: 180px;
+    right: 38%; } }
+
+@media (max-width: 1320px) {
+  .block-intro_p {
+    padding-top: 120px; }
+  .block-intro__notebook {
+    width: 67%;
+    right: 0; }
+  .block-intro__bust {
+    width: 25%;
+    top: 220px;
+    right: 40%; } }
+
+@media (max-width: 1024px) {
+  .block-intro_p {
+    padding: 120px 0 200px; }
+  .block-intro__info {
+    margin-top: 150px; }
+  .block-intro__bust {
+    top: 150px; } }
+
+@media (max-width: 768px) {
+  .block-intro_p {
+    padding: 80px 0 100px; }
+  .block-intro__info {
+    margin-top: 205px;
+    padding-left: 0; }
+  .block-intro__bust {
+    width: 22%;
+    top: 175px;
+    right: 42%; } }
+
+@media (max-width: 546px) {
+  .block-intro_p {
+    padding: 65px 0 40px; }
+  .block-intro__info {
+    margin-top: 295px; }
+  .block-intro__notebook {
+    width: 80%;
+    top: 65px; }
+  .block-intro__bust {
+    width: 30%;
+    top: 80px;
+    right: 48%; } }
+
+@media (max-width: 375px) {
+  .block-intro_p {
+    padding: 45px 0 40px; }
+  .block-intro__info {
+    margin-top: 255px; } }

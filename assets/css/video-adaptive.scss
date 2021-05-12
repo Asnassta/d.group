@@ -1,0 +1,192 @@
+@media (max-width: 1320px) {
+	.block {
+		&-intro {
+			&_motion {
+				background-position: top 120px left 30%;
+				background-size: 95%;
+			}
+			&__camera {
+				margin-top: 170px;
+				margin-left: -15%;
+				img {
+				max-height: 60vh;
+				}
+			}
+			&__oscar {
+				width: 200px;
+				top: 235px;
+				right: 20%;
+			}
+		}
+		&-popcorn {
+			&__img {
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+
+@media (max-width: 1024px) {
+	.block {
+		padding: 56px 0;
+		&-intro {
+			&_motion {
+				background-position: top 100px left 30%;
+			}
+			&__camera {
+				margin: 135px 0 80px -15%;
+				img {
+					max-height: 30vh;
+				}
+			}
+			&__oscar {
+				width: 160px;
+				top: 195px;
+			}
+		}
+		&-clip {
+			&__content {
+				&:before {
+					top: auto;
+					bottom: -2%;
+					right: -50px;
+				}
+			}
+		}
+	}
+}
+
+
+@media (max-width: 768px) {
+	.block {
+		&-intro {
+			&__camera {
+				margin: 135px 0 40px -15%;
+			}
+			&__oscar {
+				width: 120px;
+				top: 170px;
+			}
+		}
+		&-create {
+			&_motion {
+				background-size: auto 80%;
+				background-position: top 30% right -40px;
+			}
+		}
+		&-popcorn {
+			&__img {
+				margin-left: 0;
+			}
+			&__text {
+				padding-top: 50px;
+			}
+		}
+	}
+}
+
+@media (max-width: 546px) {
+	.block {
+		&-intro {
+			&__oscar {
+				width: 80px;
+				top: 150px;
+			}
+		}
+		&-clip {
+			&__content {
+				padding: 0 10px;
+				&:before {
+					right: -45px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 414px) {
+	.block {
+		&-intro {
+			&_motion {
+				background-position: top 100px left 30%;
+			}
+			&__camera {
+				margin: 105px 0 30px -15%;
+				img {
+					max-height: 25vh;
+				}
+			}
+			&__oscar {
+				width: 60px;
+				top: 140px;
+			}
+		}
+	}
+}
+
+@media (max-width: 375px) {
+	.block {
+		&-intro {
+			&__oscar {
+				width: 50px;
+				top: 130px;
+				right: 18%;
+			}
+		}
+	}
+}
+
+
+@media (min-width: 1025px) and (max-height: 900px) {
+	.block {
+		&-clip {
+			&__content {
+				max-width: 90%;
+			}
+		}
+	}
+}
+
+@media (min-width: 1025px) and (max-height: 800px) {
+	.block {
+		&-clip {
+			&__content {
+				max-width: 80%;
+			}
+		}
+	}
+}
+
+@media (min-width: 1400px) and (max-height: 800px) {
+	.block {
+		&-intro {
+			&__camera {
+				margin-top: 200px;
+			}
+			&__oscar {
+				width: 200px;
+				top: 280px;
+			}
+		}
+		&-clip {
+			&__content {
+				max-width: 68%;
+			}
+		}
+	}
+}
+
+@media (min-width: 1024px) and (max-height: 768px) {
+	.block {
+		&-intro {
+			&__camera {
+				img {
+					max-height: 40vh;
+				}
+			}
+		}
+	}
+}

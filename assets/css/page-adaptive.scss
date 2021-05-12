@@ -163,6 +163,18 @@
 			height: 56px;
 		}
 	}
+	.block {
+		&__text {
+			font-size: 14px;
+			&-line {
+				&-bottom {
+					&:after {
+						height: 7px;
+					}
+				}
+			}
+		}
+	}
 	.footer {
 		&__logo {
 			text-align: center;
