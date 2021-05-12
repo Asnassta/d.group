@@ -70,6 +70,20 @@ $(document).ready(function() {
 	});
 	}
 
+	/*FAQ*/
+	let $question = $('.block-faq__question'),
+		 $answer = $('.block-faq__answer');
+
+    $question.on('click', function(event) {
+    	if($('.block-faq__content').hasClass('one')) {
+    		$question.not($(this)).removeClass('active');
+    		$answer.not($(this).next()).slideUp(400);
+    		$question.not($(this)).find('.block-faq__arrow').removeClass('active');
+    	};
+        $(this).toggleClass('active').next().slideToggle(400);
+        $(this).find('.block-faq__arrow').toggleClass('active');
+    })
+
 	/*Slider-clients*/
 	$('.slider-trust_clients').slick({
 		infinite: true,
@@ -230,8 +244,6 @@ $(document).ready(function() {
 
   ]
 		});
-
-	
 
 });
 
