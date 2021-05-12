@@ -12,7 +12,7 @@
 </head>
 <body>
 	<!--Sprite-->
-	<svg style="display: none;">
+	<svg class="sprite">
 		<symbol id="arrow-dropdown" viewBox="0 0 9 6">
 			<g><g><path d="M4.826.216L.914 5.172h7.823z"/></g></g>
 		</symbol>
@@ -32,9 +32,11 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-3 col-xxl-3 col-xl-2 col-lg-2">
-							<a href="#" class="header__logo">
-								<img class="logo-nofixed" src="assets/images/logo.svg" alt="Логотип">
-								<img class="logo-fixed" src="assets/images/logo-white.svg" alt="Логотип">
+							<a href="#" class="header__logo logo-nofixed">
+								<img src="assets/images/logo.svg" alt="Логотип">
+							</a>
+							<a href="#" class="header__logo logo-fixed">
+								<img src="assets/images/logo-white.svg" alt="Логотип">
 							</a>
 						</div>
 						<div class="col-9 col-xxl-9 col-xl-10 col-lg-10">
@@ -53,13 +55,13 @@
 											<li>
 												<a href="#">Дизайн</a>
 												<ul class="menu__marker">
-													<li><a href="#">Брендинг</a></li>
+													<li><a href="brand.html">Брендинг</a></li>
 													<li><a href="#">Поддержка</a></li>
 													<li><a href="#">Логотипа</a></li>
 													<li><a href="#">Полиграфии</a></li>
 												</ul>
 											</li>
-											<li><a href="animation.html">Видео и анимация</a></li>
+											<li><a href="video.html">Видео и анимация</a></li>
 										</ul>
 									</li>
 									<li class="nav__list"><a href="#" class="nav__link header__link">О Нас</a></li>
@@ -96,8 +98,12 @@
 						</div>
 					</div>
 					<div class="block-intro__banner">
-						<img class="block-intro__notebook" src="assets/images/intro_index_notebook.webp" alt="">
-						<img class="block-intro__bust animated fadeInRight" src="assets/images/intro_index_bust.webp" alt="">
+						<div class="block-intro__notebook">
+							<img src="assets/images/intro_index_notebook.png" alt="">
+						</div>
+						<div class="block-intro__bust animated fadeInRight">
+							<img src="assets/images/intro_index_bust.png" alt="">
+						</div>
 					</div>
 				</div>
 				<!--/intro-->
@@ -110,8 +116,8 @@
 						<ul class="block-create__menu">
 							<li><a href="#" class="block-create__link">Разработка сайтов</a></li>
 							<li><a href="#" class="block-create__link">Тех. поддержка</a></li>
-							<li><a href="#" class="block-create__link">Брендинг</a></li>
-							<li><a href="animation.html" class="block-create__link">Видео и анимация</a></li>
+							<li><a href="brand.html" class="block-create__link">Брендинг</a></li>
+							<li><a href="video.html" class="block-create__link">Видео и анимация</a></li>
 						</ul>
 						<div class="block-create__info block__text block__text-line block__text-line_white">
 							Наша команда работает в нескольких направлениях создания цифрового и визуального продукта.
@@ -234,52 +240,52 @@
 								<div class="slider-trust slider-trust_clients">
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/zaoli.webp" alt="">
+											<img src="assets/images/zaoli.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/euro.webp" alt="">
+											<img src="assets/images/euro.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/muh.webp" alt="">
+											<img src="assets/images/muh.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/garage.webp" alt="">
+											<img src="assets/images/garage.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/printuem.webp" alt="">
+											<img src="assets/images/printuem.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/zaoli.webp" alt="">
+											<img src="assets/images/zaoli.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/euro.webp" alt="">
+											<img src="assets/images/euro.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/muh.webp" alt="">
+											<img src="assets/images/muh.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/garage.webp" alt="">
+											<img src="assets/images/garage.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/printuem.webp" alt="">
+											<img src="assets/images/printuem.png" alt="">
 										</div>
 									</div>
 								</div><!--/slider-trust-->
@@ -299,52 +305,52 @@
 								<div class="slider-trust slider-trust_partners">
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/google.webp" alt="">
+											<img src="assets/images/google.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/yandex.webp" alt="">
+											<img src="assets/images/yandex.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/bitrix.webp" alt="">
+											<img src="assets/images/bitrix.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/umi.webp" alt="">
+											<img src="assets/images/umi.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/cloud.webp" alt="">
+											<img src="assets/images/cloud.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/google.webp" alt="">
+											<img src="assets/images/google.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/yandex.webp" alt="">
+											<img src="assets/images/yandex.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/bitrix.webp" alt="">
+											<img src="assets/images/bitrix.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/umi.webp" alt="">
+											<img src="assets/images/umi.png" alt="">
 										</div>
 									</div>
 									<div class="slider-trust__wrapper">
 										<div class="slider-trust__item">
-											<img src="assets/images/cloud.webp" alt="">
+											<img src="assets/images/cloud.png" alt="">
 										</div>
 									</div>
 								</div><!--/slider-trust-->
@@ -513,8 +519,8 @@
 											<div class="footer__menu__column">
 											<a href="#" class="footer__text footer__link">Разработка сайтов</a>
 											<a href="#" class="footer__text footer__link">Техническая поддержка</a>
-											<a href="#" class="footer__text footer__link">Брендинг</a>
-											<a href="animation.html" class="footer__text footer__link">Видео и анимация</a>
+											<a href="brand.html" class="footer__text footer__link">Брендинг</a>
+											<a href="video.html" class="footer__text footer__link">Видео и анимация</a>
 										</div>
 										<div class="footer__menu__column">
 											<a href="#" class="footer__text footer__link">Контакты</a>
@@ -585,13 +591,13 @@
 													<li class="menu__dots">
 														<a class="nav__link header__link" href="#">Дизайн</a>
 														<ul class="menu__marker">
-															<li><a class="header__link" href="#">Брендинг</a></li>
+															<li><a class="header__link" href="brand.html">Брендинг</a></li>
 															<li><a class="header__link" href="#">Поддержка</a></li>
 															<li><a class="header__link" href="#">Логотипа</a></li>
 															<li><a class="header__link" href="#">Полиграфии</a></li>
 														</ul>
 													</li>
-													<li class="menu__dots"><a class="nav__link header__link" href="animation.html">Видео и анимация</a></li>
+													<li class="menu__dots"><a class="nav__link header__link" href="video.html">Видео и анимация</a></li>
 												</ul>
 											</li>
 											<li><a href="#" class="nav__link header__link">О Нас</a></li>
