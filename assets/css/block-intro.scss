@@ -221,11 +221,22 @@
 	.block {
 		&-intro {
 			&__title {
-				margin-top: 350px;
+				&_mt {
+					margin-top: 250px;
+				}
 			}
 			&__text {
 				&_mt {
 					margin-top: 40px;
+				}
+			}
+			&__cloud {
+				max-width: 70%;
+			}
+			&__airship {
+				top: 80px;
+				img {
+					max-width: 120%;
 				}
 			}
 		}

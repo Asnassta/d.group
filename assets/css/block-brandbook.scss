@@ -112,6 +112,9 @@
 @media(max-width: 546px) {
 	.block {
 		&-branbook {
+			&:before {
+				display: none;
+			}
 			&__decor {
 				left: -40px;
 			}

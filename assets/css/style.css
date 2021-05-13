@@ -1153,10 +1153,16 @@ p {
     right: 48%; } }
 
 @media (max-width: 414px) {
-  .block-intro__title {
-    margin-top: 350px; }
+  .block-intro__title_mt {
+    margin-top: 250px; }
   .block-intro__text_mt {
-    margin-top: 40px; } }
+    margin-top: 40px; }
+  .block-intro__cloud {
+    max-width: 70%; }
+  .block-intro__airship {
+    top: 80px; }
+    .block-intro__airship img {
+      max-width: 120%; } }
 
 @media (max-width: 375px) {
   .block-intro_p {
@@ -1648,7 +1654,9 @@ p {
   .block-brand__img_gray {
     visibility: hidden; }
   .block-brand__img_color {
-    opacity: 1; } }
+    opacity: 1;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); } }
 
 @media (max-width: 768px) {
   .block-brand__title {
@@ -1854,7 +1862,9 @@ p {
       right: -275px;
       top: -40px; }
       .block-faq__decor-circle img {
-        width: 50%; } }
+        width: 50%; }
+    .block-faq__decor-dots {
+      top: 260px; } }
 
 @media (max-width: 414px) {
   .block-faq__question {
@@ -1975,6 +1985,8 @@ p {
       width: 90%; } }
 
 @media (max-width: 546px) {
+  .block-branbook:before {
+    display: none; }
   .block-branbook__decor {
     left: -40px; }
   .block-branbook__splashes {
