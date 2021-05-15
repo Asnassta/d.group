@@ -35,6 +35,9 @@ $(document).ready(function() {
 		$(".header__menu_mobile").toggleClass("show");
 		$('body').toggleClass("hidden");
 		$('.fullpage').toggleClass("active");
+		$('.blog__typewriter').toggleClass("active");
+		$('.blog__header').toggleClass("active");
+		$('.transform-left').toggleClass("active");
 	});
 
 	/*Fixed Header*/
